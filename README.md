@@ -1,8 +1,6 @@
-# career-portfolio
-Career portfolio of the projects I've done.
+# Career Portfolio
+| Career portfolio of the projects I've done. | ![alt text](https://raw.githubusercontent.com/Jakage/career-portfolio/master/Pictures/kytkentakaavioinnoprokkis.png)
+| --- | --- |
+| Testing commit and writing something. | Yes. |
 
-Testing commit and writing something.
 
-Yes.
-
-![alt text](https://raw.githubusercontent.com/Jakage/career-portfolio/master/Pictures/kytkentakaavioinnoprokkis.png)
