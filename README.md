@@ -1,12 +1,57 @@
-# Career Portfolio
-Career portfolio of the projects I've done.
+# Jarkko Aho - Online Portfolio - WORK IN PROGRESS
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae nunc sed velit dignissim. Purus sit amet volutpat consequat mauris. Elementum tempus egestas sed sed risus pretium quam vulputate. Nunc non blandit massa enim nec dui nunc mattis. Turpis egestas sed tempus urna et pharetra pharetra massa. Cras tincidunt lobortis feugiat vivamus. Orci sagittis eu volutpat odio. Amet venenatis urna cursus eget nunc scelerisque viverra mauris in. Quis lectus nulla at volutpat diam ut venenatis. Mattis nunc sed blandit libero volutpat sed cras ornare. Integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus. Sit amet cursus sit amet dictum sit amet. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Id velit ut tortor pretium viverra suspendisse potenti. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Proin sed libero enim sed faucibus. Egestas dui id ornare arcu odio. Cras fermentum odio eu feugiat pretium nibh ipsum consequat.
+Welcome! I'm Jarkko Aho, or Jakage in the internet. I'm a embedded systems engineering student from Helsinki Finland.
 
-Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Sollicitudin aliquam ultrices sagittis orci a scelerisque. Lectus arcu bibendum at varius vel pharetra vel turpis. Sagittis purus sit amet volutpat consequat mauris. Senectus et netus et malesuada fames ac turpis egestas sed. Amet volutpat consequat mauris nunc congue nisi vitae. Nunc non blandit massa enim nec dui nunc. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Mi bibendum neque egestas congue quisque egestas diam. Nec ultrices dui sapien eget. Odio pellentesque diam volutpat commodo sed egestas egestas. Eget duis at tellus at. Sit amet aliquam id diam maecenas. Sit amet tellus cras adipiscing enim. Ultrices sagittis orci a scelerisque purus semper eget duis. Vitae turpis massa sed elementum.
+--------------------------------------------------------------------------------------
+Jarkko Aho
+Embedded Systems Engineer
+github.com/Jakage/career-portfolio | jarkko.aho91@gmail.com
 
-Elementum nibh tellus molestie nunc non. Pellentesque id nibh tortor id aliquet lectus proin. Nibh sit amet commodo nulla. Vitae turpis massa sed elementum tempus egestas sed. Vitae tempus quam pellentesque nec nam aliquam sem. Sit amet venenatis urna cursus eget nunc scelerisque viverra mauris. Interdum velit euismod in pellentesque massa placerat duis. Pharetra diam sit amet nisl. Nisi est sit amet facilisis. Ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. In nisl nisi scelerisque eu ultrices vitae auctor eu augue. Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet.
+Statement
 
-Nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Tellus mauris a diam maecenas sed enim. Fames ac turpis egestas sed tempus. Nunc scelerisque viverra mauris in aliquam sem. Feugiat pretium nibh ipsum consequat nisl vel. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Massa vitae tortor condimentum lacinia. Enim nunc faucibus a pellentesque sit amet porttitor eget dolor. In hendrerit gravida rutrum quisque non. Faucibus interdum posuere lorem ipsum dolor sit amet. Ut lectus arcu bibendum at varius vel pharetra vel turpis. Dui id ornare arcu odio ut. Morbi tristique senectus et netus. Et pharetra pharetra massa massa ultricies.
+I still have lot to learn about programming and embedded systems, but I learn new skills fast and I can easily understand things through practice.
 
-Tristique et egestas quis ipsum suspendisse ultrices gravida. Iaculis eu non diam phasellus vestibulum lorem sed risus. Elementum tempus egestas sed sed risus pretium quam vulputate dignissim. Id velit ut tortor pretium viverra. Amet commodo nulla facilisi nullam vehicula ipsum a. Integer quis auctor elit sed vulputate. Tincidunt praesent semper feugiat nibh sed pulvinar proin. Orci ac auctor augue mauris augue neque gravida in. In hendrerit gravida rutrum quisque non. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Pharetra sit amet aliquam id.
+Skills 
+
+Languages: C/C++, Java, C#
+
+Tools: I learned programming and debugging on multiple platforms including Windows and Linux, using IDEs such as Visual Studio and Eclipse.
+
+Experience 
+
+6/2017 – 8/2017 | Game Programmer Intern | Ticca Oy
+Internship
+
+5/2013 – 12/2013 | Store Clerk/Cashier | Suomen Lähikauppa Oy / Siwa
+Work
+
+3/2010 – 5/2012 | CNC Machinist Intern | Metso Oyj
+Internship
+
+1/2009 – 5/2010 | Store Clerk/Cashier | Kesko Oyj / Neste K
+Evening work alongside the school
+
+11/2008 – 1/2009 | Mechanic Intern | Rocla Oy
+Internship
+
+6/2008 – 7/2008 | Tinsmith Intern | YIT Oyj
+Summer Job
+
+Education 
+
+Helsinki Metropolia University of Applied Sciences - Information and Communication Technology - Embedded Systems Engineer – In Progress 
+Additional coursework in Linux OS, Full-Stack Web Development and Software Production.
+
+Oulu Vocational College OSAO 2014 – Information and Communication Technology - Embedded Electronics Technician
+Additional coursework in basic electronics and electrical physics.
+
+Järvenpää Keuda Vocational College 2010 – Machine and Metal Technology - CNC Machinist
+Additional coursework in manual machines, welding and pneumatics.
+
+Interests 
+
+Gaming: Videogames take a major part of my free time. I like to play all kinds of games, but find myself playing 3rd person RPGs most of the time, my current favorite being the Monster Hunter and Dark Souls series. I also play Dungeons and Dragons tabletop RPG weekly with my friends. Some times even card and board games.
+
+
+
+
