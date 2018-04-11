@@ -4,6 +4,7 @@ Welcome! I'm Jarkko Aho, or Jakage in the internet. I'm a embedded systems engin
 
 
 --------------------------------------------------------------------------------------
+
 Jarkko Aho
 Embedded Systems Engineer
 github.com/Jakage/career-portfolio - jarkko.aho91@gmail.com
@@ -17,7 +18,8 @@ Skills
 
 Languages: C/C++, Java, C#
 
-Tools: I learned programming and debugging on multiple platforms including Windows and Linux, using IDEs such as Visual Studio and Eclipse.
+Tools: I learned programming and debugging on multiple platforms including Windows and Linux, using IDEs such as
+Visual Studio and Eclipse.
 
 Experience 
 
@@ -42,18 +44,15 @@ Summer Job
 Education 
 
 Helsinki Metropolia University of Applied Sciences - In Progress 
-Information and Communication Technology
-Embedded Systems Engineer
+Information and Communication Technology - Embedded Systems Engineer
 Additional coursework in Linux OS, Full-Stack Web Development and Software Production.
 
 Oulu Vocational College OSAO 2014
-Information and Communication Technology
-Embedded Electronics Technician
+Information and Communication Technology - Embedded Electronics Technician
 Additional coursework in basic electronics and electrical physics.
 
 Järvenpää Keuda Vocational College 2010
-Machine and Metal Technology
-CNC Machinist
+Machine and Metal Technology - CNC Machinist
 Additional coursework in manual machines, welding and pneumatics.
 
 Interests 
