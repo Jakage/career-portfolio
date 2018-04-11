@@ -11,15 +11,13 @@ github.com/Jakage/career-portfolio - jarkko.aho91@gmail.com
 
 Statement
 
-I still have lot to learn about programming and embedded systems, but I learn new skills fast and I can easily
-understand things through practice.
+I still have lot to learn about programming and embedded systems, but I learn new skills fast and I can easily understand things through practice.
 
 Skills 
 
 Languages: C/C++, Java, C#
 
-Tools: I learned programming and debugging on multiple platforms including Windows and Linux, using IDEs such as
-Visual Studio and Eclipse.
+Tools: I learned programming and debugging on multiple platforms including Windows and Linux, using IDEs such as Visual Studio and Eclipse.
 
 Experience 
 
@@ -57,9 +55,7 @@ Additional coursework in manual machines, welding and pneumatics.
 
 Interests 
 
-Gaming: Videogames take a major part of my free time. I like to play all kinds of games, but find myself playing 3rd
-person RPGs most of the time, my current favorite being the Monster Hunter and Dark Souls series. I also play Dungeons
-and Dragons tabletop RPG weekly with my friends. Some times even card and board games.
+Gaming: Videogames take a major part of my free time. I like to play all kinds of games, but find myself playing 3rd person RPGs most of the time, my current favorite being the Monster Hunter and Dark Souls series. I also play Dungeons and Dragons tabletop RPG weekly with my friends. Some times even card and board games.
 
 
 
