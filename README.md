@@ -3,7 +3,7 @@
 Welcome! I'm Jarkko Aho, and this is my online career portfolio. I'm a embedded systems engineering student from Helsinki Finland. I'm studying in Metropolia University of Applied Sciences and I'm currently working on my bachelor's thesis about Long Range radio (LoRa) modules in IoT. I still have lot to learn about programming and embedded systems, but I learn new skills fast and I can easily understand new things through practice.  
   
 In the code section you can find code examples of all the major projects I've done. Each folder has its own readme file with pictures and brief description of the project.  
-Below you can find a plain text version of my CV in english, and you can find the formatted pdf CV in english and finnish from the code section.  
+Below you can find a plain text version of my CV in English, and you can find the formatted pdf CV in English and Finnish from the code section.  
   
 --------------------------------------------------------------------------------------
   
@@ -13,7 +13,7 @@ github.com/Jakage/career-portfolio - jarkko.aho91@gmail.com
   
 Skills  
   
-Spoken languages: My native language is finnish but I speak fluent english, which is the main study/work language in university. I also understand little swedish and japanese.  
+Spoken languages: My native language is Finnish but I speak fluent English, which is the main study/work language in university. I also understand little Swedish and Japanese.  
   
 Programming languages: My main programming language in university is C/C++, but I've worked a lot with C#, Java and Python.  
   
