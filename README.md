@@ -48,15 +48,15 @@ Tinsmith intern, welder.
   
 Education  
   
-Metropolia University of Applied Sciences - In Progress  
+Metropolia University of Applied Sciences, Helsinki - In Progress  
 Information and Communication Technology - Embedded Systems Bachelor of Engineering  
 Additional coursework in Linux OS, Full-Stack Web Development and Software Production.  
   
-Oulu Vocational College OSAO 2014  
+OSAO Vocational College, Oulu - 2014  
 Information and Communication Technology - Embedded Electronics Technician  
 Additional coursework in basic electronics, schematic designing and electrical physics.  
   
-Järvenpää Keuda Vocational College 2010  
+Keuda Vocational College, Järvenpää - 2010  
 Machine and Metal Technology - CNC Machinist  
 Additional coursework in manual machines, welding, CAD/CAM programming and pneumatics.  
   
