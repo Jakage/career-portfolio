@@ -17,7 +17,10 @@ Spoken languages: My native language is finnish but I speak fluent english, whic
   
 Programming languages: My main programming language in university is C/C++, but I've worked a lot with C#, Java and Python.  
   
-Tools: I learned programming and debugging on multiple platforms including Windows and Linux, using IDEs such as Visual Studio, Eclipse and MCUXpresso. I'm used to work with different ARM Cortex-M microprocessors such as NXP LPC1549 and Cypress, and I've made a few simple projects with Arduino UNO. I've worked with various kind of sensors from simple thermistors to more complex LoRa radio modules.  
+Tools: I learned programming and debugging on multiple platforms including Windows and Linux, using IDEs such as Visual Studio, Eclipse and MCUXpresso.  
+I'm used to work with different ARM Cortex-M microprocessors such as NXP LPC1549 and Cypress, and I've made a few simple projects with Arduino UNO.  
+I've worked with various kind of sensors from simple thermistors to more complex LoRa radio modules.  
+I'm also familiar with graphic designing programs like Adobe Illustrator CS6 and Adobe Photoshop CS6.  
   
 Teamwork and Leadership: I participated in many group projects throughout my time at university, both as a leader and team member. I get along well with all kinds of people. I've not met yet a person whom I would have had problems working with.  
   
@@ -51,7 +54,7 @@ Additional coursework in Linux OS, Full-Stack Web Development and Software Produ
   
 Oulu Vocational College OSAO 2014  
 Information and Communication Technology - Embedded Electronics Technician  
-Additional coursework in basic electronics and electrical physics.  
+Additional coursework in basic electronics, schematic designing and electrical physics.  
   
 Järvenpää Keuda Vocational College 2010  
 Machine and Metal Technology - CNC Machinist  
