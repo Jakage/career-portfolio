@@ -1,6 +1,6 @@
 # OBD remote device
 
-Full documentation can be found as a pdf format in the code section. The documentation is in finnish because it was a part of my word processing method course.
+Full documentation can be found as a pdf format in the code section. The documentation is only available in finnish because it was a part of my word processing method course.
 
 --------------------------------------------------------------------------------------
 
