@@ -58,7 +58,7 @@ Additional coursework in basic electronics, schematic designing and electrical p
   
 Järvenpää Keuda Vocational College 2010  
 Machine and Metal Technology - CNC Machinist  
-Additional coursework in manual machines, welding and pneumatics.  
+Additional coursework in manual machines, welding, CAD/CAM programming and pneumatics.  
   
 Interests  
   
