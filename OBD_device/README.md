@@ -9,6 +9,7 @@ Abstract
 Author - Jarkko Aho  
 Title - Remote reading OBD-device  
 Date - 23 March 2018  
+Language - C/C++
 
 This innovation project was a customer research project for startup company that specializes in OBD-devices (On-Board Diagnostics). The aim of this project was to design a OBD-connected device that collects data from the vehicle and sends it to company’s server using cellular network.  
   
