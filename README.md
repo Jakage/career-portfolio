@@ -37,7 +37,7 @@ Cashier, inventory management, storage management, postal services, counting day
 3/2010 – 5/2012 - CNC Machinist Intern - Metso Oyj  
 CNC machinist, welder, mechanic.  
   
-1/2009 – 5/2010 - Store Clerk/Cashier - Kesko Oyj / Neste K  
+1/2009 – 5/2010 - Service station worker - Kesko Oyj / Neste K  
 Cashier, inventory management, storage management, food processing, counting day's profit, cleaning, washing the carwash and gas pumps and closing the store.  
   
 11/2008 – 2/2009 - Mechanic Intern - Rocla Oy  
