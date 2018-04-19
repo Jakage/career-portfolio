@@ -1,4 +1,4 @@
-# XY-Plotter
+#### XY-Plotter
 
 Full documentation can be found as a pdf format in the code section.
 
