@@ -7,7 +7,7 @@ Documentation is still work in progress.
 Abstract  
   
 Author - Jarkko Aho  
-Title - LoRa modules in IoT  
+Title - LoRa modules in IoT - Transmitter  
 Date - 2018  
 Language - C/C++  
   
