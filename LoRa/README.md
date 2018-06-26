@@ -19,7 +19,7 @@ The project design was started according to the customer’s requirements. Parts
   
 The wireframe was designed with C/C++ programming language to LPCXpresso 1549 -microprocessor and was programmed using the MCUXpresso IDE programming environment. Semtech SX1272 RF Transceiver was used as LoRa-module.  
   
-The project and the thesis documentation is still work in progress.  
+The project and the thesis documentation are still work in progress.  
   
 ![](https://github.com/Jakage/career-portfolio/blob/master/LoRa/Pictures/LoRa_prototype_v05.jpg)  
   
