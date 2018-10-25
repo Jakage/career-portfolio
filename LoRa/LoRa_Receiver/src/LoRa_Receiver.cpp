@@ -47,7 +47,7 @@ void vConfigureTimerForRunTimeStats(void) {
 
 static void vReceiverTask(void *pvParameters) {
 	LoRaSPI LoRa(LoRaSPI::receiver);
-	int ch = 10;
+	int ch = 1;
 
 	// LoRa Rx pin
 	Chip_IOCON_PinMuxSet(LPC_IOCON, 0, 24, IOCON_MODE_INACT | IOCON_DIGMODE_EN);
@@ -115,26 +115,26 @@ static void vReceiverTask(void *pvParameters) {
 			LoRa.readFifo(buffer, rxNbBytes);
 
 			// Debug for-loop for checking FIFO
-			/*for(int i = 0; i < 64; i++) {
+			for(int i = 0; i < 64; i++) {
 				if((char)buffer[i] == '%') {
 					i = 64;
 					printf("\r\n");
 				} else {
 					printf("Buffer: %" PRIdFAST8 "\r\n", buffer[i]);
 				}
-			}*/
+			}
 
 			// Send buffer data to queue for raspi uart
 			xQueueSendToBack(xQueue, &buffer, 10);
 		}
 
 		// Change channel TODO: Scroll thru all channels (now only 3)
-		LoRa.writeReg(REG_OPMODE, OPMODE_STNDBY);
+		/*LoRa.writeReg(REG_OPMODE, OPMODE_STNDBY);
 		if(ch == 10) { ch = 14; }
 		else if(ch == 14) { ch = 17; }
 		else { ch = 10; }
 		LoRa.setChannel(ch);
-		LoRa.writeReg(REG_OPMODE, OPMODE_RXCONT);
+		LoRa.writeReg(REG_OPMODE, OPMODE_RXCONT);*/
 
 		// Toggle LED to show activity.
 		Board_LED_Toggle(2);
@@ -147,31 +147,37 @@ static void vReceiverTask(void *pvParameters) {
 static void vRaspiTask(void *pvParameters) {
 	RaspiUart uart;
 	uint8_t queueBuffer[64];
-	char raspibuff[] = " 000 C Sensor # \r\n";
-	unsigned int num;
-	unsigned int sensor;
+	//char raspibuff[] = " 000 C Sensor # \r\n";
+	char raspibuff[] = "Sensor# /Temp 000C/Help= /Bed= \r\n";
+	//unsigned int transnum;
+	unsigned int temp;
+	//unsigned int help;
+	//unsigned int bed;
 	while(1) {
 		xQueueReceive(xQueue, &queueBuffer, portMAX_DELAY);
-		num = queueBuffer[0];
-		sensor = queueBuffer[1];
+		//transnum = queueBuffer[0];
+		raspibuff[7] = (unsigned int)queueBuffer[0];
+		temp = queueBuffer[1];
+		raspibuff[24] = queueBuffer[2];
+		raspibuff[30] = queueBuffer[3];
+
 		// Check if temp is below zero
-		if(num > 127) {
-			raspibuff[0] = '-';
-			num = num - 127;
+		if(temp > 127) {
+			raspibuff[13] = '-';
+			temp = temp - 127;
 		} else {
-			raspibuff[0] = '+';
+			raspibuff[13] = '+';
 		}
 		// Calculate temperature
-		raspibuff[1] = num/100 + 48;
-		raspibuff[2] = (num/10)%10 + 48;
-		raspibuff[3] = num%10 + 48;
+		raspibuff[14] = temp/100 + 48;
+		raspibuff[15] = (temp/10)%10 + 48;
+		raspibuff[16] = temp%10 + 48;
 		// eliminate 0s at beginning
-		if (raspibuff[1] == '0') {
-			raspibuff[1] = ' ';
-			if (raspibuff[2] == '0') raspibuff[2] = ' ';
+		if (raspibuff[14] == '0') {
+			raspibuff[14] = ' ';
+			if (raspibuff[15] == '0') raspibuff[15] = ' ';
 		}
-		raspibuff[15] = sensor;
-		uart.write(raspibuff, 18);
+		uart.write(raspibuff, 33);
 	}
 }
 

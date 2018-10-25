@@ -5,7 +5,7 @@
  * Generated linker script file for LPC1549
  * Created from library.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.23
- * MCUXpresso IDE v10.0.2 [Build 411] [2017-07-11]  on 24.4.2018 10:17:47
+ * MCUXpresso IDE v10.0.2 [Build 411] [2017-07-11]  on 25.9.2018 11:15:04
  */
 
 GROUP (
