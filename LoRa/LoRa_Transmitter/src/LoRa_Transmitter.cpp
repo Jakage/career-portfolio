@@ -25,10 +25,22 @@
 #include "semphr.h"
 #include "LoRaSPI.h"
 #include "TempI2C.h"
+#include "DigitalIoPin.h"
 
-// Global semaphore for printf() functions
+// Global parameters
+#define TRANSNUM	'3'	// Transmitter's number 1-8
+#define TEMPNUM		2	// 0 for TC74A0 and 2 for TC74A2
+#define FREQCHANNEL	17	// Transmitter's channel 10-17
+
+// Global functions
 SemaphoreHandle_t xBin;
 QueueHandle_t xQueue;
+struct packet {
+	uint8_t pTemp = 20;
+	uint8_t pHelp = 'N';
+	uint8_t pBed = 'N';
+};
+packet t;
 
 // Generic Initialization
 static void prvSetupHardware(void) {
@@ -45,9 +57,10 @@ void vConfigureTimerForRunTimeStats(void) {
 }
 }
 
+// FreeRTOS Task functions
 static void vTransmitterTask(void *pvParameters) {
 	LoRaSPI LoRa(LoRaSPI::transmitter);
-	LoRa.setChannel(14); // Set transmitter's channel. Channels 10-17
+	LoRa.setChannel(FREQCHANNEL); // Set transmitter's channel. Channels 10-17
 
 	Chip_IOCON_PinMuxSet(LPC_IOCON, 0, 24, IOCON_MODE_INACT | IOCON_DIGMODE_EN);
 	Chip_GPIO_SetPinDIROutput(LPC_GPIO, 0, 24);
@@ -71,16 +84,22 @@ static void vTransmitterTask(void *pvParameters) {
 	// Initializes the payload size
 	LoRa.writeReg(REG_PAYLOADLENGTH, buffer_size);
 
-	for(int i = 1; i < buffer_size; i++) {
+	for(int i = 4; i < buffer_size; i++) {
 		buffer[i] = '%';
 	}
 
 	while (1) {
-		xQueueReceive(xQueue, &buffer[0], portMAX_DELAY);
-		buffer[1] = '2';
+		//xQueueReceive(xQueue, &buffer[0], portMAX_DELAY);
+		buffer[0] = TRANSNUM;
+		buffer[1] = t.pTemp;
+		buffer[2] = t.pHelp;
+		buffer[3] = t.pBed;
+		//buffer[1] = '2';
 		//buffer[2] = '\n';
 
-		//printf("Buffer0: %" PRIdFAST8 "\r\n", buffer[0]);
+		/*xSemaphoreTake(xBin, 10);
+		printf("Buffer0: %" PRIdFAST8 "\r\n", buffer[0]);
+		xSemaphoreGive(xBin);*/
 
 		Chip_GPIO_SetPinState(LPC_GPIO, 0, 24, true);
 
@@ -117,18 +136,64 @@ static void vTransmitterTask(void *pvParameters) {
 	}
 }
 
-static void vSensorTask(void *pvParameters) {
-	TempI2C thermal(2); // 0 for TC74A0 and 2 for TC74A2
-	uint8_t temp;
+static void vTempSensorTask(void *pvParameters) {
+	TempI2C thermal(TEMPNUM); // 0 for TC74A0 and 2 for TC74A2
+	while(1) {
+		t.pTemp = thermal.readTemp();
+		vTaskDelay(configTICK_RATE_HZ);
+	}
+	/*uint8_t temp;
 	while(1) {
 		temp = thermal.readTemp();
 		//printf("TEMP SENSOR: %" PRIdFAST8 "\r\n", temp);
+		//xSemaphoreTake(xBin, 10);
 		xQueueSendToBack(xQueue, &temp, 10);
+		//xSemaphoreGive(xBin);
 		// Task delay
+		vTaskDelay(configTICK_RATE_HZ);
+	}*/
+}
+
+static void vHelpBtnTask(void *pvParameters) {
+	DigitalIoPin helpBtn (0, 8, DigitalIoPin::pullup, true);
+	while(1) {
+		if (helpBtn.read()) {
+			t.pHelp = 'Y';
+			printf("SEND HELP\r\n");
+			vTaskDelay(configTICK_RATE_HZ * 10);
+			t.pHelp = 'N';
+		}
+		vTaskDelay(configTICK_RATE_HZ / 10);
+	}
+	/*uint8_t help = 'H';
+	while(1) {
+		if (helpBtn.read()) {
+			//xSemaphoreTake(xBin, 10);
+			for (int i = 0; i < 5; i++) {
+				xQueueSendToFront(xQueue, &help, portMAX_DELAY);
+			}
+			printf("SEND HELP\r\n");
+			//while(helpBtn.read()) {}
+			//xSemaphoreGive(xBin);
+		}
+		vTaskDelay(configTICK_RATE_HZ);
+	}*/
+}
+
+static void vBedSensorTask(void *pvParameters) {
+	DigitalIoPin bedSensor (1, 6, DigitalIoPin::pullup, true);
+	while(1) {
+		if (bedSensor.read()) {
+			t.pBed = 'Y';
+			printf("BED IN USE\r\n");
+		} else {
+			t.pBed = 'N';
+		}
 		vTaskDelay(configTICK_RATE_HZ);
 	}
 }
 
+// Main loop
 int main(void) {
 	prvSetupHardware();
 	xBin = xSemaphoreCreateBinary();
@@ -137,8 +202,14 @@ int main(void) {
 	xTaskCreate(vTransmitterTask, "vTransmitterTask",
 			configMINIMAL_STACK_SIZE + 256, NULL, (tskIDLE_PRIORITY + 1UL), (TaskHandle_t *) NULL);
 
-	xTaskCreate(vSensorTask, "vSensorTask",
+	xTaskCreate(vTempSensorTask, "vTempSensorTask",
 			configMINIMAL_STACK_SIZE + 256, NULL, (tskIDLE_PRIORITY + 1UL), (TaskHandle_t *) NULL);
+
+	xTaskCreate(vHelpBtnTask, "vHelpBtnTask",
+			configMINIMAL_STACK_SIZE + 128, NULL, (tskIDLE_PRIORITY + 1UL), (TaskHandle_t *) NULL);
+
+	xTaskCreate(vBedSensorTask, "vBedSensorTask",
+			configMINIMAL_STACK_SIZE + 128, NULL, (tskIDLE_PRIORITY + 1UL), (TaskHandle_t *) NULL);
 
 	vTaskStartScheduler();
 

@@ -1,6 +1,5 @@
-src/LoRa_Transmitter.o src/LoRa_Transmitter.d: \
- ../src/LoRa_Transmitter.cpp \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_board_nxp_lpcxpresso_1549\inc/board.h \
+src/DigitalIoPin.o src/DigitalIoPin.d: ../src/DigitalIoPin.cpp \
+ C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\LoRa_Transmitter\inc/DigitalIoPin.h \
  C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\inc/chip.h \
  C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\inc/lpc_types.h \
  C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\inc/sys_config.h \
@@ -47,24 +46,9 @@ src/LoRa_Transmitter.o src/LoRa_Transmitter.d: \
  C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\inc/spi_15xx.h \
  C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\inc/i2cm_15xx.h \
  C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\inc/i2c_common_15xx.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\inc/i2cs_15xx.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_board_nxp_lpcxpresso_1549\inc/board_api.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\inc/lpc_types.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/FreeRTOS.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/projdefs.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/FreeRTOSConfig.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/portable.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/portmacro.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/mpu_wrappers.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/task.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/list.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/semphr.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/queue.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\LoRa_Transmitter\inc/LoRaSPI.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\LoRa_Transmitter\inc/TempI2C.h \
- C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\LoRa_Transmitter\inc/DigitalIoPin.h
+ C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\inc/i2cs_15xx.h
 
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_board_nxp_lpcxpresso_1549\inc/board.h:
+C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\LoRa_Transmitter\inc/DigitalIoPin.h:
 
 C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\inc/chip.h:
 
@@ -159,33 +143,3 @@ C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\in
 C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\inc/i2c_common_15xx.h:
 
 C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\inc/i2cs_15xx.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_board_nxp_lpcxpresso_1549\inc/board_api.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\lpc_chip_15xx\inc/lpc_types.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/FreeRTOS.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/projdefs.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/FreeRTOSConfig.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/portable.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/portmacro.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/mpu_wrappers.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/task.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/list.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/semphr.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\freertos\inc/queue.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\LoRa_Transmitter\inc/LoRaSPI.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\LoRa_Transmitter\inc/TempI2C.h:
-
-C:\Users\akai__000\Documents\MCUXpressoIDE_10.0.2_411\workspace\LoRa_Transmitter\inc/DigitalIoPin.h:

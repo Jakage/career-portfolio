@@ -4,6 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/DigitalIoPin.cpp \
 ../src/LoRaSPI.cpp \
 ../src/LoRa_Transmitter.cpp \
 ../src/TempI2C.cpp \
@@ -15,6 +16,7 @@ C_SRCS += \
 ../src/sysinit.c 
 
 OBJS += \
+./src/DigitalIoPin.o \
 ./src/LoRaSPI.o \
 ./src/LoRa_Transmitter.o \
 ./src/TempI2C.o \
@@ -24,6 +26,7 @@ OBJS += \
 ./src/sysinit.o 
 
 CPP_DEPS += \
+./src/DigitalIoPin.d \
 ./src/LoRaSPI.d \
 ./src/LoRa_Transmitter.d \
 ./src/TempI2C.d \
