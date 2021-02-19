@@ -1,8 +1,8 @@
 #### Jarkko Aho - Online Portfolio
-
-Welcome! I'm Jarkko Aho, and this is my online career portfolio. I'm a embedded systems engineering student from Helsinki Finland. I'm studying in Metropolia University of Applied Sciences and I'm currently working on my bachelor's thesis about Long Range radio (LoRa) modules in IoT.  
   
-In the code section and below you can find all the major projects I've done. Each folder has its own readme file with pictures and brief description of the project. You can also find my CV in English and Finnish in the code section, and more information from text based CV in English.  
+Welcome! I'm Jarkko Aho, and this is my online career portfolio. I'm a embedded systems bachelor of engineering from Helsinki Finland. I studied at Metropolia University of Applied Sciences and my bachelor's thesis was about Long Range radio (LoRa) modules in IoT https://www.theseus.fi/handle/10024/261996.  
+  
+In the code section and below you can find all the major projects I've done. Each folder has its own readme file with pictures and brief description of the project. You can also find more information from text based CV in English.  
   
 --------------------------------------------------------------------------------------
   
