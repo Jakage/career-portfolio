@@ -4,14 +4,16 @@ github.com/Jakage/career-portfolio - jarkko.aho91@gmail.com
   
 Skills  
   
-Spoken languages: My native language is Finnish but I speak fluent English, which is the main study/work language in university. I also understand little Swedish and Japanese.  
+Spoken languages: My native language is Finnish but I speak fluent English, which was mine main study/work language in university.  
   
-Programming languages: My main programming language in university is C/C++, but I've worked a lot with C#, Java and Python.  
+Programming languages: I work with IEC 61131-3 standard at my work, with occasional C# and Java. My work also includes SCADA visualization program Visu+ 2 and its VBA scripting language.
+My main programming language in university was C/C++, but I've worked a lot with C#, Java and Python.   
   
-Tools: I learned programming and debugging on multiple platforms including Windows and Linux, using IDEs such as Visual Studio, Eclipse and MCUXpresso.  
+Tools: I learned programming and debugging on multiple platforms including Windows and Linux, using IDEs such as Visual Studio, Eclipse and MCUXpresso for high level languages. For IEC 61131-3 I work with PLCnext Engineer and PC Worx.
+I work mainly with PLCnext Controls and other automation industry I/O's and Bus Couplers-
 I'm used to work with different ARM Cortex-M microprocessors such as NXP LPC1549 and Cypress, and I've made a few simple projects with Arduino UNO.  
 I've worked with various kind of sensors from simple thermistors to more complex LoRa radio modules.  
-I'm also familiar with graphic designing programs like Adobe Illustrator CS6 and Adobe Photoshop CS6.  
+I'm also familiar with graphic designing programs like Adobe Illustrator CS6 and Adobe Photoshop CS6.
   
 Teamwork and Leadership: I participated in many group projects throughout my time at university, both as a leader and team member. I get along well with all kinds of people. I've not met yet a person whom I would have had problems working with.  
   
@@ -21,6 +23,12 @@ Experience - ICT
 As an intern in Ticca I worked on a Virtual Reality (VR) puzzle game that was made on Epic Games Unreal 4 game engine. I was responsible for programming interactive mechanisms, like elevators, buttons and locks. Most of the programming was made using the Unreal 4 game engine's Blueprint visual scripting language, but some parts still required Visual Studio and C++.  
   
 Experience - other  
+
+1/2019 - present - Application Engineer - Phoenix Contact Oy
+IEC 61131-3, PLCnext, HMI, IPC, sales technical support, product specialist.
+
+5/2017 - 7/2017 - Game programmer - Ticca Oy
+Virtual reality programming, C++, Unreal Engine 4, game testing.
   
 5/2013 – 10/2013 - Store Clerk/Cashier - Suomen Lähikauppa Oy / Siwa  
 Cashier, inventory management, storage management, postal services, counting day's profit, cleaning and closing the store.  
@@ -39,7 +47,7 @@ Tinsmith intern, welder.
   
 Education  
   
-Metropolia University of Applied Sciences, Helsinki - In Progress  
+Metropolia University of Applied Sciences, Helsinki - 2019  
 Information and Communication Technology - Embedded Systems Bachelor of Engineering  
 Additional coursework in Linux OS, Full-Stack Web Development and Software Production.  
   
