@@ -1,4 +1,4 @@
-#### LoRa Thesis Project - Work in Progress
+#### LoRa Thesis Project
 
 https://www.theseus.fi/handle/10024/261996    
   
