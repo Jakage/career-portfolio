@@ -57,7 +57,7 @@ Additional coursework in manual machines, welding, CAD/CAM programming and pneum
   
 Interests  
   
-Gaming: Videogames take a major part of my free time. I like to play all kinds of games, but find myself playing 3rd person RPGs most of the time, my current favorite being the Monster Hunter and Dark Souls series. I also play Dungeons and Dragons tabletop RPG weekly with my friends. Sometimes even card and board games.  
+Video games: Video games take a major part of my free time. I like to play all kinds of games, but find myself playing 3rd person RPGs most of the time, my current favorite being the Monster Hunter and Dark Souls series. I also play Dungeons and Dragons tabletop RPG weekly with my friends. Sometimes even card and board games.  
 
 
 
